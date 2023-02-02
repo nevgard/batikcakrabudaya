@@ -1,0 +1,264 @@
+/* Sembunyikan scrollbar dari Chrome, Safari dan Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sembunyikan scrollbar untuk IE, Edge dan Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE dan Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+:root {
+  --pr-color: #000;
+}
+/* senconday color #e29119 */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 3;
+}
+/* NavbarColor */
+.nav-color {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/1666101329044.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 99%;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: ease-in 0.3s;
+}
+* {
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 30px;
+}
+.nav-link {
+  font-size: 16px;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+
+/* Hero Section */
+
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/BAD_3035-edit.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+  width: 50%;
+}
+.hero-tagline p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 50%;
+}
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* hover */
+.button-lg-primary:hover {
+  width: 237px;
+  height: 70px;
+  background-color: #462e27;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all ease-in-out 0.3s;
+}
+
+/* Plus Section */
+
+#plus {
+  padding: 100px 0;
+}
+
+#plus img {
+  margin-right: 20px;
+  width: 200px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+/* Koleksi Section */
+#koleksi {
+  background-image: url(../img/full-bloom.webp);
+  background-position: center;
+}
+.card-koleksi {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  color: #000;
+}
+
+.card-koleksi:hover {
+  border-radius: 5px;
+  background: linear-gradient(160deg, rgb(70, 46, 39), rgb(0, 0, 0));
+  padding: 20px;
+  color: #fff;
+}
+
+.card-koleksi img {
+  height: 220px;
+  width: 220px;
+  border-radius: 3px;
+}
+.intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* about section */
+#about {
+  padding: 100px;
+}
+.button-lg-secondary {
+  width: 137px;
+  height: 60px;
+  background-color: #462e27;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all ease-in-out 0.3s;
+}
+
+.button-lg-secondary:hover {
+  width: 137px;
+  height: 60px;
+  background-color: #e29119;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all ease-in-out 0.3s;
+}
+
+/* animasi section */
+#animasi {
+  background-image: url(../img/full-bloom.webp);
+  background-position: center;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+/* motto section */
+#motto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../img/patterns4.png);
+  color: white;
+  padding: 100px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* layanan */
+#layanan {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Footer section */
+footer {
+  background-color: #462e27;
+  color: white;
+}
+/* Sub About Us */
+/* atas */
+#atas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../img/visual-karsa-fPhXlTVtQsI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#atas h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+/* Visi */
+/* video */
+
+
+#visi {
+  background-image: linear-gradient(160deg, rgb(70, 46, 39), rgb(0, 0, 0));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+#layanan img {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.subnavbar {
+  background-image: url(../img/1666101329044.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: all ease-in-out 0.3s;
+  color: #000;
+}
+.position-fixed {
+  animation: all ease-in-out 0.3s;
+}
+
+.card-body p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+}
